@@ -1,1 +1,42 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --color-gray-20: #F8F4EB;
+  --color-gray-50: #EFE6E6;
+  --color-gray-100: #DFCCCC;
+  --color-gray-500: #5E0000;
+  --color-primary-100: #FFE1E0;
+  --color-primary-300: #FFA6A3;
+  --color-primary-500: #FF6B66;
+  --color-secondary-400: #FFCD58;
+  --color-secondary-500: #FFC132;
+
+  --image-gradient-yellowred: liner-gradient(90deg, #FF616A 0%, #FFC837 100%);
+  --image-mobile-home: url('./assets/HomePageGraphic.png');
+
+  --font-dmsans: "DM Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --content-evolvetext: url('./assets/EvolveText.png');
+  --content-abstractwaves: url('./assets/AbstractWaves.png');
+  --content-circles: url('./assets/Circles.png');
+
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1060px;
+  /* --breakpoint-lg: 1024px; */
+  /* --breakpoint-xl: 1280px; */
+  /* --breakpoint-2xl: 1536px; */
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
