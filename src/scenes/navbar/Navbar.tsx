@@ -1,7 +1,6 @@
 import type { SelectedPage } from "@/shared/types";
 import Link from "./Link"
 import useMediaQuery from "@/hooks/useMediaQuery";
-import { div } from "framer-motion/client";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { useState } from "react";
 import ActionButton from "@/shared/ActionButton";

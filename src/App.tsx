@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './scenes/navbar/Navbar'
+import Home from './scenes/home/Index';
 
 enum SelectedPage {
   Home = "home",
@@ -33,6 +34,7 @@ function App() {
           selectedPage={selectedPage}
           setSelectedPage={setSelectedPage}
         />
+        <Home setSelectedPage={setSelectedPage} />
       </div>
     </>
   )
