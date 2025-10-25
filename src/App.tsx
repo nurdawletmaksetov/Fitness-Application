@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './scenes/navbar/Navbar'
-import Home from './scenes/home/Index';
+import Home from './scenes/home';
 
 enum SelectedPage {
   Home = "home",
@@ -9,6 +9,7 @@ enum SelectedPage {
   OurClasses = "ourclasses",
   ContactUs = "contactus",
 }
+
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
