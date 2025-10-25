@@ -19,7 +19,7 @@ const Home = ({ setSelectedPage }: Props) => {
         <>
             <section
                 id="home"
-                className="flex flex-col gap-16 bg-gray-20 md:py-10 md:h-full md:pb-0"
+                className="md:flex md:flex-col md:gap-13 bg-gray-20 md:py-10 md:h-full md:pb-0"
             >
                 {/* IMAGE AND MAIN HEADER */}
                 <div className="md:flex md:mt-10 mx-auto w-5/6 items-center justify-center md:h-5/6">
@@ -38,11 +38,11 @@ const Home = ({ setSelectedPage }: Props) => {
                             }}
                         >
                             <div className="relative">
-                                <div className="relative before:absolute before:-top-20 before:-left-20 before:z-[-1] before:content-[var(--content-evolvetext)]">
+                                <div className="relative md:before:absolute md:before:-top-20 md:before:-left-20 md:before:z-[-1] md:before:content-[var(--content-evolvetext)]">
                                     <img src={HomePageText} alt="home-page-text" />
                                 </div>
                             </div>
-                            <p className="mt-8 text-sm md:text-start">
+                            <p className="mt-8 text-sm text-start">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Quae beatae, tempora quam asperiores commodi veniam, earum repudiandae,
                                 deleniti consectetur esse quod assumenda ut architecto.
