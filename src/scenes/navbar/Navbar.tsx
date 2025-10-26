@@ -29,7 +29,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
                             {/* LEFT SIDE */}
 
-                            <img src="./public/images/Logo.png" alt="logo" />
+                            <img src="./images/Logo.png" alt="logo" />
 
                             {/* RIGHT SIDE */}
                             {isAboveMediumScreens ? (
