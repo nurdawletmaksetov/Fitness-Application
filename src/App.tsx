@@ -5,7 +5,7 @@ import Home from './scenes/home';
 import Benefits from './scenes/benefits';
 import OurClasses from './scenes/ourClasses';
 import ContactUs from './scenes/contactUs';
-import Footer from './scenes/footer';
+import Footer from './scenes/contactUs/footer';
 
 enum SelectedPage {
   Home = "home",

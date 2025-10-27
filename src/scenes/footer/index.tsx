@@ -1,9 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-type Props = {}
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <>
       <footer className='bg-primary-100 py-16'>
